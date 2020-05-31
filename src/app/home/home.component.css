@@ -1,0 +1,29 @@
+    .intro-header {
+      height: unset !important;
+    }
+    .intro-2 {
+      background: url("/assets/homehatter.jpeg")no-repeat center center;
+      background-size: cover;
+    }
+    .view {
+      height: 100vh !important;
+      color:black;
+    }
+    .card {
+      background-color: rgba(229, 228, 255, 0.2);
+    }
+    mdb-card-body {
+      padding: 0;
+    }
+    
+    h6 {
+      line-height: 1.7;
+    }
+    @media (max-width: 740px) {
+      .full-height,
+      .full-height body,
+      .full-height header,
+      .full-height header .view {
+        height: 1040px;
+      }
+    }

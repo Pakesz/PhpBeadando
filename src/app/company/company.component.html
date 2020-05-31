@@ -1,0 +1,26 @@
+<div class="container-fluid">
+    <div class="row" *ngIf="company">
+        <div class="profile-card">
+            <div class="image-container">
+                <img src="assets/companycard.jpg" alt="Company Image" style="width: 100%;">
+                <div class="title">
+                    <h2>{{company.name}} </h2>
+                </div>
+            </div>
+            <div class="main-container text-center">
+                <div class="row">
+                    <div class="col">
+                        <ul class="p-0">
+                            <li><i class="fa fa-heart"></i> {{company.headquarters}}</li>
+                            <li><i class="fa fa-internet-explorer"></i> {{company.website}}</li>
+                            <li><i class="fa fa-book"></i> <br> {{company.motto}}</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <p id="about"><b><i class="fa fa-comments"></i> About</b></p>
+                <p>{{company.description}}</p>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,13 @@
+mdb-card i {
+  color: red;
+  cursor: pointer;
+  font-size: 1.25rem;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  z-index: 1;
+}
+
+#companyName {
+  color:rgb(6, 6, 197);
+}
